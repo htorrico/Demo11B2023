@@ -15,9 +15,12 @@
                     />
 
             <Button Text="Restar"
+                    
                     Command="{Binding Restar}"
                     />
-            <Label  Text="{Binding Resultado}"/>
+            <Label  Text="{Binding Resultado}"
+                    FontSize="50"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
